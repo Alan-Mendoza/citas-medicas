@@ -41,7 +41,11 @@
     <div class="wrapper">
       
     </div>
-    @yield('contenido')
+    @if(Auth::user())
+      @yield('content')
+    @else
+      @yield('contenido')
+    @endif
 <!-- ./wrapper -->
 
 <!-- jQuery 3 -->

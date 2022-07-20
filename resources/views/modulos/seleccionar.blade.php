@@ -14,7 +14,7 @@
         <div class="icon">
           <i class="fa fa-female"></i>
         </div>
-        <a href="ingresar" class="small-box-footer">
+        <a href="{{ route('ingresar') }}" class="small-box-footer">
           Ingresar <i class="fa fa-arrow-circle-right"></i>
         </a>
       </div>
@@ -29,7 +29,7 @@
         <div class="icon">
           <i class="fa fa-user-md"></i>
         </div>
-        <a href="ingresar" class="small-box-footer">
+        <a href="{{ route('ingresar') }}" class="small-box-footer">
           Ingresar <i class="fa fa-arrow-circle-right"></i>
         </a>
       </div>
@@ -44,7 +44,7 @@
         <div class="icon">
           <i class="fa fa-users"></i>
         </div>
-        <a href="ingresar" class="small-box-footer">
+        <a href="{{ route('ingresar') }}" class="small-box-footer">
           Ingresar <i class="fa fa-arrow-circle-right"></i>
         </a>
       </div>
@@ -59,7 +59,7 @@
         <div class="icon">
           <i class="fa fa-male"></i>
         </div>
-        <a href="ingresar" class="small-box-footer">
+        <a href="{{ route('ingresar') }}" class="small-box-footer">
           Ingresar <i class="fa fa-arrow-circle-right"></i>
         </a>
       </div>
